@@ -1,3 +1,4 @@
+import com.pack.Dodaj;
 
 public class HelloWorld {
 
@@ -6,6 +7,9 @@ public class HelloWorld {
 		// Test comment
 		
 		System.out.println("Witaj swiecie !!!");
+		Dodaj dodaj = new Dodaj();
+		System.out.println("Wynik dodawania: " + dodaj.suma(3, 5));
+		
 	}
 
 }
